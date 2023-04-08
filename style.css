@@ -1,106 +1,106 @@
-body{
-    background-image: url(https://media.istockphoto.com/id/1390647151/photo/abstract-technology-background-big-data-digital-code-futuristic-dots-background-3d-rendering.jpg?b=1&s=170667a&w=0&k=20&c=kfGdOkhaPrqyFYEdIz7H9oz97YLqlfRGEnc3752QIMQ=);
-    background-size: cover;
-    background-repeat: repeat;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
 }
-.box{
-    margin: 50px;
-    padding: 50px;
-    border-radius: 1px;
-    border-color: brown;
-    background-color: aquamarine;
-    border-style: dotted;
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+section header ul li button{
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+section .main{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.main{
-    margin: 50px;
-    padding: 50px;
-    border-radius: 50px;
-    border: solid darkgoldenrod;
-    border-style: double;
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.blue{
-    background-color: blue;
-    color: aliceblue;
-    justify-content: center;
-    text-align: center;
-}
-.green{
-    background-color: green;
-    color: aliceblue;
-    justify-content: center;
-    text-align: center;
-}
-.black{
-    background-color: black;
-    color: white;
-    justify-content: center;
-    text-align: center;
-}
-.taskthree{
-    background-color: yellow;
-    margin: 50px;
-    padding: 50px;
-    border: solid black;
-    border-radius: 20px;
-    border-style: double;
-}
-.heading{
-    color: red;
-}
-.para{
-    color: blue;
-    justify-content: end;
-    text-align: end;
-}
-.taskfour{
-    background-color: blueviolet;
-    margin: 50px;
-    padding: 50px;
-}
-.two{
-    color: white;
-}
-.three{
-    color: white;
-}
-.taskfive{
-    border: 1px;
-    border: solid black;
-    border-style: groove;
-    background-color: white;
-    height: 60%;
-}
-.four{
- text-decoration: overline;
-}
-.five{
-    text-decoration: line-through;
-}
-.six{
-    text-decoration: underline;
-}
-.seven{
-    background-repeat: no-repeat;
-}
-.seven{
-    text-decoration: none;
-}
+ section .main .searchBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+ }
 
-.flex-box{
-    padding: 50px;
-    margin: 20px;
-    width: 50%;
-    height: 50%;
-    background: linear-gradient(purple,red);
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    border: solid blue;
-    box-sizing: border-box;
+section .main .searchBox .search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+
+}
+section .main .searchbox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+section .main .buttons{
+    margin-top: 20px;
+}
+section .main .buttons button
+{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+}
+section .main .buttons button:hover{
+border: 1px solid #ccc;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMXwXcwzjv6l6kvmR1RLZQFMW2w3fSHxlJ4Q&usqp=CAU);
+    background-size: cover;
 }
